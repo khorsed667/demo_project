@@ -20,6 +20,30 @@ const Navbar = () => {
               Home
             </Link>
             <Link
+              to="/add-job"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              Add Job
+            </Link>
+            <Link
+              to="/my-posted-jobs"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              My Posted Jobs
+            </Link>
+            <Link
+              to="/my-bids"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              My Bids
+            </Link>
+            <Link
+              to="/bid-requests"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              Bid Requests
+            </Link>
+            <Link
               to="/login"
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
